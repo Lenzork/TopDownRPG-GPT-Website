@@ -1,0 +1,74 @@
+/* Bootstrap core CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/* Custom styles for this template */
+body {
+  padding-top: 56px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.btn-download {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-download:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 78px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+  }
+  .navbar-toggler {
+    border-color: #f8f9fa;
+  }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+main {
+    margin-top: 50px;
+    padding: 0;
+  }
+  
+  .hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    background-image: url('Hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+  
+  .hero p {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
